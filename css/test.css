@@ -19,7 +19,12 @@ body{
 }
 a{
     text-decoration: none;
-    color:rebeccapurple;
+}
+.link{
+    color:white;
+    background-color:rebeccapurple;
+    padding: 8px 15px;
+    margin-left: 10px;
     font-weight: 700;
 }
 h1,h2,h3{
@@ -34,6 +39,9 @@ ul {
 }
 ul > li {
     margin-right: 30px;
+}
+ul li:last-child{
+    margin-right: 0;
 }
 .box {
     display: flex;
